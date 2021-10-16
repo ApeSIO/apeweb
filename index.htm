@@ -1,0 +1,335 @@
+<html>
+
+<head>
+  <title>Ape | Accueil</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="nav main-nav">
+      <ul>
+        <li><a href="index.htm">ACCUEIL</a></li>
+        <li><a href="inscription.htm">INSCRIPTION</a></li>
+        <li><a href="playlist.htm">PLAYLIST</a></li>
+      </ul>
+    </nav>
+    <div class="boxhead">
+      <a href="playlist.htm">
+        <h1 class="playlist-name playlist-name-large">Bangers-Only</h1>
+      </a>
+    </div>
+    <audio id="placc" loop>
+      <source src="Songs/bangerplaylist.ogg" type="audio/ogg">
+      <source src="Songs/bangerplaylist.mp3" type="audio/mpeg">
+    </audio>
+    <div class="center">
+      <button class="btn" onclick="playplacc()" type="button">&#201;coutez la playlist</button>
+    </div>
+
+    <script>
+      var ac = document.getElementById("placc");
+
+      function playplacc() {
+        if (ac.paused) {
+          ac.play()
+        }
+
+        else {
+          ac.pause();
+        }
+      }
+
+      function pauseplacc() {
+        ac.pause();
+      }
+    </script>
+
+  </header>
+
+  <section class="content-section container">
+    <table>
+      <tr>
+        <th colspan="6">Top 20 Albums - USA</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td><a href="https://music.dolboard.com/wp-content/uploads/2021/09/51NguoSejIS._AC_SX466_-1.jpg"><img
+              src="Images/donda.png"></td>
+        <td>Donda</td>
+        <td>Drill-Rap</td>
+        <td>Kanye-West</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://shop.kanyewest.com/products/donda-album';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td><a
+            href="https://www.thebackpackerz.com/wp-content/uploads/2018/12/a24486c6e4c335d50ce79fdcf7bef5ac.1000x1000x1.jpg"><img
+              src="Images/dicaprio2.png"></td>
+        <td>DiCaprio2</td>
+        <td>Rap</td>
+        <td>JID</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/DiCaprio-2-LP-J-I-D/dp/B07XHFJNYS';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td><a href="https://pbs.twimg.com/media/ElRP6xwXIAI79hF.jpg"><img src="Images/manonthemoon.png"></td>
+        <td>Man-On-The-Moon</td>
+        <td>Rap</td>
+        <td>Kid-Cudi</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Man-Moon-End-Day-Vinyl/dp/B002IDH4PQ/ref=sr_1_1?dchild=1&keywords=man+on+the+moon&qid=1634337528&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td><a href="https://images-na.ssl-images-amazon.com/images/I/712Rkd6CIKL._SL1500_.jpg"><img
+              src="Images/iamiwas.png"></td>
+        <td>I-am-I-was</td>
+        <td>Rap</td>
+        <td>21-Savage</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/i-am-was-21-Savage/dp/B07LDC9BV3/ref=sr_1_1?dchild=1&keywords=i+am+i+was&qid=1634337565&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td><a
+            href="https://img.discogs.com/GJIpIERaOlBoyRr2wvFtcooi6pI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-18725662-1621009397-5472.png.jpg"><img
+              src="Images/offseason.png"></td>
+        <td>Off-Season</td>
+        <td>Rap</td>
+        <td>J-Cole</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Off-Season-Edited-J-Cole/dp/B0974RWVJ8/ref=sr_1_2?dchild=1&keywords=off+season&qid=1634337589&s=music&sr=1-2';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>006</td>
+        <td><a href="https://pbs.twimg.com/media/EvRjcp_XEAkTaug.jpg"><img src="Images/swimming.png"></td>
+        <td>Swimming</td>
+        <td>RnB</td>
+        <td>Mac-Miller</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Swimming-Explicit-2LP-Mac-Miller/dp/B07FDKWTXV/ref=sr_1_1?dchild=1&keywords=swimming&qid=1634337610&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>007</td>
+        <td><a href="https://static.hotmixradio.fr/wp-content/uploads/joyner-lucas-isis_feat-logic.jpg"><img
+              src="Images/adhd.png"></td>
+        <td>ADHD</td>
+        <td>Rap</td>
+        <td>Joyner-Lucas</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/ADHD-Joyner-Lucas/dp/B08FP9XFXL/ref=sr_1_2?dchild=1&keywords=adhd&qid=1634337630&s=music&sr=1-2';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>008</td>
+        <td><a href="https://cdns-images.dzcdn.net/images/cover/3d845a35fd7849630324107baf07657b/500x500.jpg"><img
+              src="Images/dripharder.png"></td>
+        <td>Drip-Harder</td>
+        <td>Rap</td>
+        <td>Lil-Baby</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Drip-Harder-Lil-Baby-Gunna/dp/B07J34BKV7/ref=sr_1_1?dchild=1&keywords=drip+harder&qid=1634337648&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>009</td>
+        <td><a href="https://images-na.ssl-images-amazon.com/images/I/81TNEeBI11L._SL1425_.jpg"><img
+              src="Images/luvisrage2.png"></td>
+        <td>LuvIsRage2</td>
+        <td>Rap</td>
+        <td>Lil-Uzi-Vert</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Luv-Rage-2-Explicit-Deluxe/dp/B0761YQ9KN/ref=sr_1_1?dchild=1&keywords=luv+is+rage&qid=1634337682&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+      <tr>
+        <td>010</td>
+        <td><a
+            href="https://images.complex.com/complex/images/c_fill,f_auto,g_center,w_1200/fl_lossy,pg_1/fvag2i5vsbsfxzotrle4/mustard-perfect-album-cover"><img
+              src="Images/perfectten.png"></td>
+        <td>Perfect-Ten</td>
+        <td>Trap</td>
+        <td>Mustard</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Perfect-Ten-Explicit-Mustard/dp/B07T9H2M51/ref=sr_1_2?dchild=1&keywords=perfect+ten&qid=1634337779&s=dmusic&sr=1-2';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>011</td>
+        <td><a
+            href="https://www.thebackpackerz.com/wp-content/uploads/2019/09/ybn-cordae-the-lost-boy-chronique-album.png"
+            target="_blank"><img src="Images/lostboy.png"></td>
+        <td>Lost-Boy</td>
+        <td>Rap</td>
+        <td>Cordae</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.fr/Lost-Boy-USA-Ybn-Cordae/dp/B07ZWBRGF2/ref=tmm_acd_swatch_0?_encoding=UTF8&qid=1634384546&sr=8-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>012</td>
+        <td><a href="https://m.media-amazon.com/images/I/81x-vVkMAML._SS500_.jpg" target="_blank"><img
+              src="Images/reckless.png"></td>
+        <td>Reckless</td>
+        <td>Rap</td>
+        <td>NAV</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/RECKLESS-NAV/dp/B07DQ963QV';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>013</td>
+        <td><a href="https://static.qobuz.com/images/covers/90/w5/k0n60ix7bw590_600.jpg" target="_blank"><img
+              src="Images/darkrose.png"></td>
+        <td>DarkRose</td>
+        <td>ChillHop</td>
+        <td>Lil-Skies</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Life-Dark-Rose-Explicit-Skies/dp/B077ZCJFZY/ref=sr_1_2?dchild=1&keywords=dark+rose+lil+skies&qid=1634385245&s=music&sr=1-2-catcorr';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>014</td>
+        <td><a href="https://media.pitchfork.com/photos/5984949006cb3d7a4d86b3d7/1:1/w_600/boywhocriedwolf.jpeg"
+            target="_blank"><img src="Images/boywhocriedwolf.png"></td>
+        <td>BoyWhoCriedWolf</td>
+        <td>Rap</td>
+        <td>Wifisfuneral</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Boy-Who-Cried-Wolf-Explicit/dp/B074Q6WR46/ref=sr_1_1?dchild=1&keywords=boy+who+cried+wolf+wifisfuneral&qid=1634385280&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>015</td>
+        <td><a
+            href="https://static.highsnobiety.com/thumbor/DcgtwZriHvhhwwksa_3yd_ajYUs=/fit-in/800x480/smart/static.highsnobiety.com/wp-content/uploads/2018/07/20105021/88rising-head-in-the-clouds-album-stream-00.jpg"
+            target="_blank"><img src="Images/head-in-clouds.png"></td>
+        <td>Head-in-Clouds</td>
+        <td>ChillHop</td>
+        <td>88rising</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/88rising-Clouds-Music-Limited-limited/dp/B07L9G36D1/ref=sr_1_1?dchild=1&keywords=88rising+head&qid=1634385315&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>016</td>
+        <td><a
+            href="https://d2qbf73089ujv4.cloudfront.net/uploads/user/avatar/1532119/xl_square_cropped_cover_1423805582.jpg"
+            target="_blank"><img src="Images/onepointfive.png"></td>
+        <td>ONEPOINTFIVE</td>
+        <td>Pop-Rap</td>
+        <td>Amine</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Good-Onepointfive-Exclusive-Yellow-Vinyl/dp/B0964P2N1W/ref=sr_1_2?dchild=1&keywords=onepointfive+amin%C3%A9&qid=1634385344&s=music&sr=1-2';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>017</td>
+        <td><a href="https://m.media-amazon.com/images/I/81AF0b3UasL._AC_SL1500_.jpg" target="_blank"><img
+              src="Images/babyonbaby.png"></td>
+        <td>Baby-on-Baby</td>
+        <td>Rap</td>
+        <td>DaBaby</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/BLAME-BABY-DELUXE-2-LP/dp/B08GHC14PP/ref=sr_1_1?dchild=1&keywords=dababy+baby+on+baby&qid=1634385362&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>018</td>
+        <td><a href="https://i1.sndcdn.com/artworks-RSMhpCBJC4zs-0-t500x500.jpg" target="_blank"><img
+              src="Images/confessions.png"></td>
+        <td>Confessions</td>
+        <td>Rap</td>
+        <td>Logic</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Confessions-Dangerous-Mind-Logic/dp/B07RS922RL/ref=sr_1_1?dchild=1&keywords=confessions+logic&qid=1634385395&s=music&sr=1-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>019</td>
+        <td><a href="https://i.redd.it/9fs65tuvrgw21.jpg"><img src="Images/notallheroes.png"></td>
+        <td>NotAllHeroesWearCapes</td>
+        <td>Trap</td>
+        <td>Metro-Boomin</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/NOT-ALL-HEROES-WEAR-CAPES/dp/B07KLR5FP3/ref=sr_1_1?crid=1EUEWCGNVLEL1&dchild=1&keywords=not+all+heroes+wear+capes+vinyl&qid=1634385416&sprefix=not+all+heroes+%2Cmusic-intl-ship%2C234&sr=8-1';">Acheter</button>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>020</td>
+        <td><a
+            href="https://img.discogs.com/K2T2hxzbpuPrn7glzvw2TucqaNI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14826159-1611938923-8833.jpeg.jpg"><img
+              src="Images/meetthewoo.png"></td>
+        <td>MeetTheWoo2</td>
+        <td>Drill-Rap</td>
+        <td>Pop-Smoke</td>
+        <td><button class="btn"
+            onclick="window.location.href='https://www.amazon.com/Meet-Woo-2-Deluxe-2-LP/dp/B08DPVW5ZZ/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1634385434&sr=8-2';">Acheter</button>
+
+        </td>
+      </tr>
+
+    </table>
+  </section>
+  <footer class="main-footer">
+    <div class="container main-footer-container">
+      <h3 class="playlist-name">Bangers-Only</h3>
+      <ul class="nav footer-nav">
+        <ul>
+          <li>
+            <a href="https://open.spotify.com/playlist/7AUD0bUK3qWTMGNSXwmZsS?si=c2a338776dd546f3" target="_blank"><img
+                src="Images/spotifylogo.png" alt="spotifylogo"></a>
+          </li>
+          <li>
+            <a href="https://soundcloud.com/apecio" target="_blank"><img src="Images/soundcloudlogo.png"
+                alt="soundcloudlogo"></a>
+          </li>
+          <li>
+            <a href="https://youtube.com/apeciounbound" target="_blank"><img src="Images/ytlogo.png" alt="ytlogo"></a>
+          </li>
+        </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
